@@ -1,0 +1,27 @@
+<mat-toolbar>
+  <button mat-button routerLink="/">
+      <mat-icon>home</mat-icon> {{title}}
+  </button>
+
+  <span class="fill-remaining-space"></span>
+
+  <div fxLayout="row" fxHide fxShow.gt-sm>
+      <button mat-button routerLink="/">Home</button>
+      <button mat-button routerLink="/about">About Us</button>
+      <button mat-button routerLink="/contact">Contact</button>
+      <button mat-button routerLink="/careers">Careers</button>
+  </div>
+  <button mat-button [mat-menu-trigger-for]="menu" fxShow fxHide.gt-sm>
+   <mat-icon>menu</mat-icon>
+  </button>
+
+</mat-toolbar>
+<mat-menu x-position="before" #menu>
+  <button mat-menu-item routerLink="/">Home</button>
+  <button mat-menu-item routerLink="/about">About us</button>
+  <button mat-menu-item routerLink="/contact">Contact Us</button>
+  <button mat-menu-item routerLink="/careers">Careers</button>
+</mat-menu>
+
+
+

@@ -1,0 +1,28 @@
+
+.sidebar{
+    float: left;
+    width: 40%;
+}
+.header-icon{
+    background-image: url("https://image.flaticon.com/icons/svg/432/432594.svg");
+    background-size: cover;
+}
+.mat-card-image{
+    height: 100%;
+}
+
+.form-container {
+    float: right;
+    width: 50%;
+    margin-top: 5%;
+
+} 
+.form-container  > * {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+#submit{
+    margin: 0% 40%;
+    width: 50px;
+}

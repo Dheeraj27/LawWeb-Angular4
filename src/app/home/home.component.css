@@ -1,0 +1,14 @@
+.content{
+    margin: 0% 5%;
+}
+.header-icon{
+    background-image: url("https://image.flaticon.com/icons/svg/432/432594.svg");
+    background-size: cover;
+}
+.maintext{
+    display: flex;
+    direction: ltr;
+    width: 40%;
+    border-right: 1px solid gray;
+    padding-right: 7%;
+}
